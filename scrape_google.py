@@ -20,5 +20,6 @@ class Scraper:
             print(title, '>', url)  # 出力する
 
 
+
 news = 'https://news.google.com/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnFZUm9DU2xBb0FBUAE?hl=ja&gl=JP&ceid=JP%3Aja'    
 Scraper(news).scrape()  # Scraperオブジェクトを作成し、scrapeメソッドを実行する
